@@ -1,48 +1,479 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hamza GAIZI | Home Page</title>
-    <meta name="description" content="Welcome to my website that showcases some of my digital creations.">
-    <link rel="stylesheet" href="assets/css/global.css">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">    
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img//favicon-32x32.png">    
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img//favicon-16x16.png">    
-    <link rel="manifest" href="assets/img/site.webmanifest">
+	<title>Front End Development Tutorials</title>
+
+	<meta name="description" content="Front End Development Tutorials">
+	
+	<!-- Stylsheet -->
+	<link rel="stylesheet" href="assets/css/front-end-home.css?version=2202n">
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
+
+	<!-- Link to icons for Font Awesome 5 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+	<style> header { margin-bottom: 0 }
+	.bg-section-js {
+		background-color:  #ffffe0
+	}
+
+	.bg-section-green {
+    	background-color: #ccffcc;
+	}
+
+	.bg-dark { background-color: #263238 }
+	.bg-dark { background-color: #263238 }
+	.bg-dark .item-1 h2 { color: rgb(20, 241, 149)  }
+	.bg-dark .item-3 img { margin-bottom: 16px }
+	.bg-dark .item-3 p { color: #fff }
+
+	section.bg-dark .item-3 h3 a:link, 
+	section.bg-dark .item-3 h3 a:visited { 
+		margin-bottom: 20px;
+		color: rgb(20, 241, 149);
+		text-decoration: underline;
+    	text-decoration-thickness: 2px;
+    	text-underline-offset: 7px;
+    	transition: .35s ease-in-out;
+		text-decoration-color: transparent;		
+	}
+
+	section.bg-dark .item-3 h3 a:focus, 
+	section.bg-dark .item-3 h3 a:hover,
+	section.bg-dark .item-3 h3 a:active { 
+		color: #9ae6b4;
+		text-decoration-color: #9ae6b4;		
+	}
+
+	section.bg-dark .item-3 a.btn-solid:link, 	
+	section.bg-dark .item-3 a.btn-solid:visited {
+		background-color: rgb(20, 241, 149);
+		border-color: rgb(20, 241, 149);
+		color: #000;
+	}
+
+	section.bg-dark .item-3 a.btn-solid:focus, 
+	section.bg-dark .item-3 a.btn-solid:hover, 
+	section.bg-dark .item-3 a.btn-solid:active { 
+		background-color: #c6f6d5;
+		border-color: #c6f6d5;
+		text-decoration-color: #c6f6d5;
+	}
+
+
+	</style>
+
+
 </head>
 
-<body>
+<body id="top">
 
-    <h1>Hi, I'm Hany SHamloul</h1>
-    <h2>DORSET COLLEGE</h2>
-    <p>I present you my homework</p>
+<header>
+    <div class="wrapper">
+		<div class="sidebar">
+			<div><p>&nbsp;</p>
+			</div>
+	</div>
 
-    <img src="assets/img/pexels-pixabay-270348.jpg" alt="I'm a student developer">
+        <div class="content">
+            <h1>Front-end Development</h1>
+        </div>
+    </div><!-- /wrapper -->
+</header>
 
-    <h3>Sample Web Pages</h3>
-    <p><a href="exercises/page-1.html">A Tale of Two Cities</a></p>
-    <p><a href="exercises/page-2.html">IBAT Chocolates</a></p>
-    <p><a href="exercises/page-3.html">Prince & Purple Rain</a></p>
-    <p><a href="exercises/page-4.html">Lorem Ipsum Text</a></p>
-    <p><a href="exercises/page-5.html">Vincent van Gogh</a></p>
-    <p><a href="exercises/page-6.html">Irish Tourism</a></p>
-    <p><a href="exercises/page-7.html">Smooth Smoothies</a></p>
-    <p><a href="exercises/page-8.html">Software Analytics</a></p>
-    <p><a href="exercises/page-9.html">The Box Model</a></p> 
-    <p><a href="exercises/page-10.html">Web Page With Panels</a></p> 
-    <p><a href="exercises/page-11.html">Web Page with Alternating Sections</a></p>
-    <p><a href="exercises/page-12.html">Responsive grid of rows and columns</a></p>
+<main>
 
-    <p><a href="exercises/hero-text.html">Hero Blocks: Text</a></p> 
-    <p><a href="exercises/hero-img.html">Hero Block: With full-width backgound image</a></p>
-    <p><a href="exercises/hero-img-half.html">Hero Block: With half-width backgound image</a></p>
-    <p><a href="exercises/hero-video.html">Hero block with background video</a></p>
+<article>
+	
 
-    <p><a href="exercises/buttons-icons.html">Buttons and Icons</a></p>
+	<section class="bg-dark">
+		<div class="wrapper">
+			<div class="item-1"><h2>Exercises and Projects</h2></div>
+	
+			<div class="item-3">
+				<a href="exercises/index.html">
+					<picture>
+						<img src="assets/img/toc-html.png" alt="Choosing a web browser for web designers and web developers">
+					</picture>
+				</a>
+				<h3><a class="tighter-05" href="exercises/index.html">CA: 1</a></h3>
+				<p><b>14 HTML/CSS EXERCISES</b>: <br>HTML and CSS basics; images, colours, and fonts; responsive design; flexbox layout; Google Analytics and cookie privacy message.</p>
+				<p><b>16%</b> of final grade.</p>
+				<p>DEADLINE: 2 November</p>
+			</div>
+	
+			<div class="item-3">
+				<a href="#">
+					<picture>
+						<img src="assets/img/toc-media-queries.png" class="img-zoom" alt="Creating an account for web hosting on GitHub">
+					</picture>
+				</a>
+				<h3><a href="#">CA: 2</a></h3>
+				<p><b>5 WEB DESIGN PROJECTS</b>: <br>Four single-page web projects (Van Gogh, Fashion, Smoothies, Crypto) and a four-page Personal Portfolio website.</p>
+				<p><b>64%</b> of final grade.</p>
+			</div>
+	
+			<div class="item-3">
+				<a href="#">
+					<picture>
+						<img src="assets/img/toc-ca-3.png" alt="Installing and customising Visual Studio Code for web designers">
+					</picture>
+				</a>
+				<h3><a href="#">CA: 3</a></h3>
+				<p><b>10 JAVASCRIPT PROJECTS</b>: <br>Data types; string and numeric methods; functions; branching; DOM; arrays; APIs; and NodeJS.</p>
+				<p><b>20%</b> of final grade.</p>
+			</div>
+		</div>
+	</section>
 
-    <p><a href="exercises/forms.html">Email Sign-up Form</a></p>
+
+
+<section class="bg-section-light">
+	<div class="wrapper">
+		<div class="item-1"><h2>Starting Out, Setting Up</h2></div>
+
+		<div class="item-3">
+			<a href="exercises/intro-web-browsers.html">
+				<picture>
+					<source srcset="assets/img/thumbnail-browser.webp" class="img-shadow img-zoom" type="image/webp">
+					<img src="assets/img/thumbnail-browser.jpg" class="img-shadow img-zoom" alt="Choosing a web browser for web designers and web developers">
+				</picture>
+			</a>
+			<h3><a class="tighter-05" href="exercises/intro-web-browsers.html">Working with Web Browsers</a></h3>
+			<p>Installing and customising the web browsers most commonly used by web designers and web developers.</p>
+			<a class="btn-solid btn-rounded" href="exercises/intro-web-browsers.html"><span>View</span> Tutorial<i class="fas fa-arrow-right"></i></a>
+		</div>
+
+		<div class="item-3">
+			<a href="exercises/intro-github.html">
+				<picture>
+					<source srcset="assets/img/thumbnail-github.webp" class="img-shadow img-zoom" type="image/webp">
+					<img src="assets/img/thumbnail-github.jpg" class="img-shadow img-zoom" alt="Creating an account for web hosting on GitHub">
+				</picture>
+			</a>
+			<h3><a href="exercises/intro-github.html">Web Hosting on GitHub</a></h3>
+			<p>Creating a free GitHub account, choosing a website name and setting up a repository for hosting your web pages.</p>
+			<a class="btn-solid btn-rounded" href="exercises/intro-github.html"><span>View</span> Tutorial<i class="fas fa-arrow-right"></i></a>
+		</div>
+
+		<div class="item-3">
+			<a href="exercises/intro-vscode.html">
+				<picture>
+					<source srcset="assets/img/thumbnail-vscode.webp" class="img-shadow img-zoom" type="image/webp">
+					<img src="assets/img/thumbnail-vscode.jpg" class="img-shadow img-zoom" alt="Installing and customising Visual Studio Code for web designers">
+				</picture>
+			</a>
+			<h3><a href="exercises/intro-vscode.html">Working with VS Code</a></h3>
+			<p>Installing and customising the free Microsoft Visual Studio Code app for creating web pages and stylesheets.</p>
+			<a class="btn-solid btn-rounded" href="exercises/intro-vscode.html"><span>View</span> Tutorial<i class="fas fa-arrow-right"></i></a>
+		</div>
+	</div>
+</section>
+
+	<section>
+		<div class="wrapper">
+			<div class="item-1"><h2>Web Design Fundamentals</h2></div>
+
+			<div class="item-3">
+				<a href="exercises/about-html-files.html">
+					<img src="assets/img/toc-html.png" class="img-shadow" alt="portfolio all the light">
+				</a>
+				<h3><a href="exercises/about-html-files.html">About HTML Files</a></h3>
+				<p>Understanding the basic structure of an HTML file and recognising the elements commonly found in the &lt;head&gt; section.</p>
+				<a class="btn-solid btn-rounded" href="exercises/about-html-files.html"><span>View</span> Tutorial<i class="fas fa-arrow-right"></i></a>
+			</div>
+
+			<div class="item-3">
+				<a href="exercises/intro-html.html">
+					<img src="assets/img/toc-markup.png" class="img-shadow" alt="portfolio all the light">
+				</a>
+				<h3><a href="exercises/intro-html.html">Working with HTML</a></h3>
+				<p>Adding HTML text formatting tags for headings and paragraphs, and bold and italics.</p>
+				<a class="btn-solid btn-rounded" href="exercises/intro-html.html"><span>View</span> Tutorial<i class="fas fa-arrow-right"></i></a>
+			</div>
+
+			<div class="item-3">
+				<a href="exercises/about-css-files.html">
+					<img src="assets/img/toc-css-intro.png" class="img-shadow" alt="portfolio all the light">
+				</a>
+				<h3><a href="exercises/about-css-files.html">About CSS Files</a></h3>
+				<p>Understanding a CSS stylesheet, and recognising the most commonly used CSS properties in web design.</p>
+				<a class="btn-solid btn-rounded" href="exercises/about-css-files.html"><span>View</span> Tutorial<i class="fas fa-arrow-right"></i></a>
+			</div>
+
+			<div class="item-3 item-margin-top">
+				<a href="exercises/styling-css.html">
+					<img src="assets/img/toc-styling.png" class="img-shadow" alt="portfolio all the light">
+				</a>
+				<h3><a href="exercises/styling-css.html">Working with CSS</a></h3>
+				<p>Linking a stylesheet to a web page, and updating the style rules to change the visual appearance of a web page.</p>
+				<a class="btn-solid btn-rounded" href="exercises/styling-css.html"><span>View</span> Tutorial<i class="fas fa-arrow-right"></i></a>
+			</div>
+
+			<div class="item-3 item-margin-top hide-mobile"><p>&nbsp;</p></div>
+			<div class="item-3 item-margin-top hide-mobile"><p>&nbsp;</p></div>
+		</div>
+	</section>
+
+	<section class="bg-section-light">
+		<div class="wrapper">
+			<div class="item-1"><h2>Colours and Web Design</h2></div>
+
+			<div class="item-3">
+				<a href="exercises/colours-and-web-design.html">
+				   <img src="assets/img/toc-colours.png" class="img-shadow" alt="portfolio all the light">
+			   </a>
+			   <h3><a href="exercises/colours-and-web-design.html">Colours and Web Design</a></h3>
+			   <p>Learning about the web colour systems, and applying CSS properties for setting text and background colours.</p>
+			   <a class="btn-solid btn-rounded" href="exercises/colours-and-web-design.html"><span>View</span> Tutorial<i class="fas fa-arrow-right"></i></a>
+		   </div>
+
+		    <div class="item-3 item-margin-top hide-mobile"><p>&nbsp;</p></div>
+			<div class="item-3 item-margin-top hide-mobile"><p>&nbsp;</p></div>
+		</div>
+	</section>
+
+
+	<section>
+		<div class="wrapper">
+			<div class="item-1"><h2>Images and Web Design</h2></div>
+
+			<div class="item-3">
+				<a href="exercises/intro-images.html">
+					<img src="assets/img/toc-images.png" class="img-shadow" alt="portfolio all the light">
+				</a>
+				<h3><a href="exercises/intro-images.html">Introduction to Images</a></h3>
+				<p>Understanding popular image formats used on web pages, and discovering sources of free-to-use images.</p>
+				<a class="btn-solid btn-rounded" href="exercises/intro-images.html"><span>View</span> Tutorial<i class="fas fa-arrow-right"></i></a>
+			</div>
+
+			<div class="item-3">
+				<a href="exercises/working-with-images.html">
+					<img src="assets/img/toc-images-working.png" class="img-shadow" alt="portfolio all the light">
+				</a>
+				<h3><a href="exercises/working-with-images.html">Working with Images</a></h3>
+				<p>Inserting images in a web page, and styling images with drop shadow and rounded corner effects.</p>
+				<a class="btn-solid btn-rounded" href="exercises/working-with-images.html"><span>View</span> Tutorial<i class="fas fa-arrow-right"></i></a>
+			</div>
+
+			<div class="item-3">
+				<p>&nbsp;</p>
+
+			</div>
+
+		</div>
+	</section>
+
+	<section class="bg-section-light">
+		<div class="wrapper">
+			<div class="item-1"><h2>Text and Typography</h2></div>
+
+			<div class="item-3">
+				<a href="exercises/working-with-google-fonts.html">
+					<img src="assets/img/toc-fonts.png" class="img-shadow" alt="portfolio all the light">
+				</a>
+				<h3><a href="exercises/working-with-google-fonts.html">Working with Google Fonts</a></h3>
+				<p>Linking your web pages to Google Fonts and formatting text elements by adding Google Font names to your stylesheets.</p>
+				<a class="btn-solid btn-rounded" href="exercises/working-with-google-fonts.html"><span>View</span> Tutorial<i class="fas fa-arrow-right"></i></a>
+			</div>
+
+			<div class="item-3 item-margin-top hide-mobile"><p>&nbsp;</p></div>
+			<div class="item-3 item-margin-top hide-mobile"><p>&nbsp;</p></div>
+		</div>
+	</section>
+
+	
+	<section>
+		<div class="wrapper">
+			<div class="item-1"><h2>Responsive Web Design</h2></div>
+
+			<div class="item-3">
+				<a href="exercises/intro-media-queries.html">
+					<img src="assets/img/toc-flexbox.png" class="img-shadow" alt="portfolio all the light">
+				</a>
+				<h3><a href="exercises/intro-media-queries.html">Media Queries</a></h3>
+				<p>Adding media queries to a CSS file so that web page elements resize according to the viewport width.</p>
+				<a class="btn-solid btn-rounded" href="exercises/intro-media-queries.html"><span>View</span> Tutorial<i class="fas fa-arrow-right"></i></a>
+			</div>
+
+			<div class="item-3">
+				<a href="exercises/intro-fluid-type.html">
+					<img src="assets/img/toc-fluid-typography.png" class="img-shadow" alt="portfolio all the light">
+				</a>
+				<h3><a href="exercises/intro-fluid-type.html">Fluid Typography</a></h3>
+				<p>Applying the fluid typographic equation to scale font sizes responsively according to the viewport width.</p>
+				<a class="btn-solid btn-rounded" href="exercises/intro-fluid-type.html"><span>View</span> Tutorial<i class="fas fa-arrow-right"></i></a>
+			</div>
+
+			<div class="item-3 item-hide-mobile"><p>&nbsp;</p></div>
+		</div>
+	</section>
+
+	<section class="bg-section-light">
+		<div class="wrapper">
+			<div class="item-1"><h2>The Box Model</h2></div>
+
+			<div class="item-3">
+				<a href="exercises/intro-page-layout.html">
+					<img src="assets/img/toc-semantic.png" class="img-shadow" alt="portfolio all the light">
+				</a>
+				<h3><a href="exercises/intro-page-layout.html">Semantic Design</a></h3>
+				<p>Exploring the main visual elements of a web page and how they are implemented with semantic tags in HTML5.</p>
+				<a class="btn-solid btn-rounded" href="exercises/intro-page-layout.html"><span>View</span> Tutorial<i class="fas fa-arrow-right"></i></a>
+			</div>
+
+			<div class="item-3">
+				<a href="exercises/intro-box-model.html">
+					<img src="assets/img/toc-box-model-new.png" class="img-shadow" alt="portfolio all the light">
+				</a>
+				<h3><a href="exercises/intro-box-model.html">The Box Model</a></h3>
+				<p>Exploring the &#8216;box model&#8217; concept and understanding the CSS properties of padding, borders and margins.</p>
+				<a class="btn-solid btn-rounded" href="exercises/intro-box-model.html"><span>View</span> Tutorial<i class="fas fa-arrow-right"></i></a>
+			</div>
+
+			<div class="item-3">
+				<a href="exercises/working-with-panels.html">
+					<img src="assets/img/toc-panels.png" class="img-shadow" alt="portfolio all the light">
+				</a>
+				<h3><a href="exercises/working-with-panels.html">Working with Panels</a></h3>
+				<p>Using the box model principles to create and style small, visually attractive panels of content in a web page.</p>
+				<a class="btn-solid btn-rounded" href="exercises/working-with-panels.html"><span>View</span> Tutorial<i class="fas fa-arrow-right"></i></a>
+			</div>
+
+		</div>
+
+	</section>
+
+		<section>
+			<div class="wrapper">
+				<div class="item-1"><h2>Working with Hyperlinks</h2></div>
+		
+				<div class="item-3">
+					<a href="exercises/hyperlinks-intro.html">
+						<img src="assets/img/toc-hyperlinks-intro.png" class="img-shadow" alt="portfolio all the light">
+					</a>
+					<h3><a href="exercises/hyperlinks-intro.html">Introduction to Hyperlinks</a></h3>
+					<p>Understanding the difference between absolute and relative hyperlinks, and adding hyperlinks to sample web pages.</p>
+					<a class="btn-solid btn-rounded" href="exercises/hyperlinks-intro.html"><span>View</span> Tutorial<i class="fas fa-arrow-right"></i></a>
+				</div>
+		
+				<div class="item-3">
+					<a href="exercises/hyperlinks-internal.html">
+						<img src="assets/img/toc-hyperlinks-internal.png" class="img-shadow" alt="portfolio all the light">
+					</a>
+					<h3><a href="exercises/hyperlinks-internal.html">Internal Hyperlinks</a></h3>
+					<p>Creating a Wikipedia-style web page navigation system with a smooth-scrolling visual effect.</p>
+					<a class="btn-solid btn-rounded" href="exercises/hyperlinks-internal.html"><span>View</span> Tutorial<i class="fas fa-arrow-right"></i></a>
+				</div>
+		
+				<div class="item-3">
+					<a href="exercises/hyperlinks-styling.html">
+						<img src="assets/img/toc-hyperlinks-styles.png" class="img-shadow" alt="portfolio all the light">
+					</a>
+					<h3><a href="exercises/hyperlinks-styling.html">Styling Hyperlinks with CSS</a></h3>
+					<p>Applying CSS style rules such as text colours, borders and transitions to hyperlink states.</p>
+					<a class="btn-solid btn-rounded" href="exercises/hyperlinks-styling.html"><span>View</span> Tutorial<i class="fas fa-arrow-right"></i></a>
+				</div>
+			</div>
+		</section>
+
+		<section class="bg-section-light">
+
+			<div class="wrapper">
+				<div class="item-1"><h2>Hero Blocks</h2></div>
+	
+				<div class="item-3">
+					<a href="exercises/hero-block-text.html">
+						<img src="assets/img/toc-hero-one.png" class="img-shadow" alt="portfolio all the light">
+					</a>
+					<h3><a href="exercises/hero-block-text.html">Hero Blocks with Text</a></h3>
+					<p>Designing an above-the-fold hero block with animated text and various background colours.</p>
+					<a class="btn-solid btn-rounded" href="exercises/hero-block-text.html"><span>View</span> Tutorial<i class="fas fa-arrow-right"></i></a>
+				</div>
+	
+				<div class="item-3">
+					<a href="exercises/hero-block-image.html">
+						<img src="assets/img/toc-hero-two.png" class="img-shadow" alt="portfolio all the light">
+					</a>
+					<h3><a href="exercises/hero-block-image.html">Hero Blocks with Images</a></h3>
+					<p>Designing a hero block with various background image options including tinted overlays.</p>
+					<a class="btn-solid btn-rounded" href="exercises/hero-block-image.html"><span>View</span> Tutorial<i class="fas fa-arrow-right"></i></a>
+				</div>
+	
+				<div class="item-3">
+					<a href="exercises/hero-block-video.html">
+						<img src="assets/img/toc-video.png" class="img-shadow" alt="portfolio all the light">
+					</a>
+					<h3><a href="exercises/hero-block-video.html">Hero Blocks with Videos</a></h3>
+					<p>Designing a hero block with a background video that plays in a continuous loop and includes a tinted overlay.</p>
+					<a class="btn-solid btn-rounded" href="exercises/hero-block-video.html"><span>View</span> Tutorial<i class="fas fa-arrow-right"></i></a>
+				</div>
+	
+			</div>
+
+		</section>
+		
+
+		<section>
+			<div class="wrapper">
+				<div class="item-1"><h2>Multi-column Layout</h2></div>
+	
+				<div class="item-3">
+					<a href="exercises/intro-flexbox.html">
+						<img src="assets/img/toc-media-queries.png" class="img-shadow" alt="portfolio all the light">
+					</a>
+					<h3><a href="exercises/intro-flexbox.html">Introduction to CSS Flexbox</a></h3>
+					<p>Using the CSS flexbox method to layout the content of web pages in responsive grids of rows and columns.</p>
+					<a class="btn-solid btn-rounded" href="exercises/intro-flexbox.html"><span>View</span> Tutorial<i class="fas fa-arrow-right"></i></a>
+				</div>
+			</div>
+		</section>
+
+		<section class="bg-section-light">
+			<div class="wrapper">
+				<div class="item-1"><h2>Portfolio Website</h2></div>
+	
+				<div class="item-3">
+					<a href="exercises/setting-up-google-analytics.html">
+						<img src="assets/img/toc-ga.png" class="img-shadow" alt="portfolio all the light">
+					</a>
+					<h3><a href="exercises/setting-up-google-analytics.html">Setting Up Google Analytics</a></h3>
+					<p>Monitoring your website visitors by adding a unique tracking code to your web pages.</p>
+					<a class="btn-solid btn-rounded" href="exercises/setting-up-google-analytics.html">View Tutorial<i class="fas fa-arrow-right"></i></a>
+				</div>
+
+				<div class="item-3">
+					<a href="exercises/privacy.html">
+						<img src="assets/img/toc-media-queries.png" class="img-shadow" alt="portfolio all the light">
+					</a>
+					<h3><a href="exercises/privacy.html">Privacy Messages</a></h3>
+					<p>Creating a &#8216;pop-up&#8217; cookie consent message to include in your web pages.</p>
+					<a class="btn-solid btn-rounded" href="exercises/privacy.html"><span>View</span> Tutorial<i class="fas fa-arrow-right"></i></a>
+				</div>
+
+				<div class="item-3">&nbsp;</div>
+
+			</div>
+		</section>
+
+
+</main> 
+
+<footer>
+
+</footer>
+
+</article>
+</main>
 
 </body>
 </html>
+
+
